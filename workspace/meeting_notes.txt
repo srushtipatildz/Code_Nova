@@ -1,0 +1,5 @@
+--- HACKATHON TEAM SYNC ---
+1. Goal: Win Best Open-Source AI Project challenge.
+2. Model: Run Qwen2.5 3B locally on Ollama.
+3. Core Feature: Human-in-the-loop consent layer (MayI).
+4. Important: Never execute destructive actions without explicit user approval!

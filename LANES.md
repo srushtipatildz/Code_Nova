@@ -1,0 +1,9 @@
+# LANES — build ownership (touch ONLY your paths; push your branch)
+Update ONLY your row here (pull → edit → push; retry on conflict). Status: 🟡 building / 🟢 done / 🔴 blocked.
+- Lane A contracts → branch `lane/contracts` → `contracts/**` — 🟢 done (AgentLaunchRegistry + ENSv2SubnameIssuer; 20/20 tests; dedicated ENSv2 + fallback; event spine + deploy runbook in contracts/README.md)
+- Lane B world → branch `lane/world` → `integrations/world/**`, `docs/world.md` — 🟢 done (verified-human-operator Selfie Check: client verify.js + backend server.mjs + demo + tests green; feedback doc docs/world.md; sandbox = Shaka's Developer Portal account)
+- Lane C graph → branch `lane/graph` → `subgraph/**`, `web/pulse/**` — 🟢 LIVE — Studio endpoint serving (4 agents indexed), Pulse badge 🟢 live (mock hidden), API key baked
+- Lane D hedera → branch `lane/hedera` → `integrations/hedera/**`, `docs/hedera.md` — 🟢 DONE: real on-chain settlement E2E via Blocky402 (tx `0.0.7162784@1789264118.054067693`, hashscan.io/testnet, mirror-verified); payer provisioning supports pre-funded accounts (skips hollow completion, ED25519+ECDSA), mock kept as labeled offline-only fallback — proofs in docs/hedera.md
+- Lane E research → branch `lane/research` → `research/**`, `docs/chainlink.md`, `docs/inch.md`, `docs/fetch-bsc.md`, `docs/cardano.md` — 🟢 done
+- Lane F ui-docs → branch `lane/ui` → `web/**` (except web/pulse), `AI-USAGE.md`, `SUBMISSION.md`, `docs/demo-script.md` — 🟢 done
+- Lane G crops-review → branch `lane/crops-review` → `docs/crops-review-say.md` — 🟢 done (independent security/privacy review of lane/sdk @ 75ccd09: verdict **MINOR — approved to proceed**; 7/7 gates PASS, 2 MINOR hygiene fixes: mask republished upstream API key in docs/fetch-cli.md §1, disclose Lane SDK in AI-USAGE.md lane table; 3 NITs — details in the review doc)

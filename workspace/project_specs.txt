@@ -1,0 +1,3 @@
+Project: MayI Consent Layer
+Security Policy: Zero-trust agent actions.
+Storage: Local SQLite database.
